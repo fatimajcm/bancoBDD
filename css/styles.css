@@ -7,6 +7,20 @@ body{
     font-family: 'Raleway', sans-serif;
     background-color: #fff;
 }
+.logo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.titulo{
+  color: white;
+  margin-left: 70px;
+}
+
 a{
     text-decoration: none;
 }
@@ -120,8 +134,8 @@ nav ul li a:hover{
     box-shadow:  5px 10px 30px rgba(0, 0, 0, 0.13);
 }
 .f-img{
-    width: 100%;
-    height: 63%;
+    width: 80%;
+    height: 53%;
 }
 .f-img img{
     width: 100%;
@@ -133,6 +147,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
     flex-direction: column;
 }
 .f-text h4{
