@@ -4,21 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bankest</title>
-    <link rel="stylesheet" href="../css/styles1.css"/>
+    <link rel="stylesheet" href="../css/viewadmin.css"/>
 </head>
 <body>
-<div class="border box padT20">
-	<div class="center">
-		<button ng-class="btnClass1" class="btn btn-lg tab" ng-click="addCust()">Add Customer
-		<b ng-show="btnClass1 === 'btn-primary'" id="notch" class="notch"></b></button>
-		<button ng-class="btnClass2" class="btn btn-lg tab" ng-click="openAccount()">Open Account
-		<b ng-show="btnClass2 === 'btn-primary'" id="notch" class="notch"></b></button>
-		<button ng-class="btnClass3" class="btn btn-lg tab" ng-click="showCust()">Customers
-		<b ng-show="btnClass3 === 'btn-primary'" id="notch" class="notch"></b></button>
-	</div>
-	<div class="" ui-view>
-	</div>
+    <header class="main">
+        <nav>
+          <a href="../html/main.html" class="logo">
+              <h1 class="titulo">Bankest</h1>
+              <img class="logo" src="../images/bank.png">
+          </a>
+    
+          <ul class="menu">
+              <li><a href="../html/main.html">Home</a></li>
+              <li><a href="#">Credits and Loans</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+      </nav>
 
+<div class="container">
+	<div class="center">
+		<button class="btn" onclick="addClient()">Add new user</button>
+        <button class="btn" onclick="">Check on a account</button>
+        <button class="btn" onclick="">Show all users</button>
+	</div>
 </div>
+
+</header>
+
+<script src="../js/script.js"></script>
+
 </body>
 </html>
